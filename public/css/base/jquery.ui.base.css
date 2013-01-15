@@ -1,0 +1,11 @@
+@import url("ci2/css/base/jquery.ui.core.css");
+@import url("ci2/css/base/jquery.ui.resizable.css");
+@import url("ci2/css/base/jquery.ui.selectable.css");
+@import url("ci2/css/base/jquery.ui.accordion.css");
+@import url("ci2/css/base/jquery.ui.autocomplete.css");
+@import url("ci2/css/base/jquery.ui.button.css");
+@import url("ci2/css/base/jquery.ui.dialog.css");
+@import url("ci2/css/base/jquery.ui.slider.css");
+@import url("ci2/css/base/jquery.ui.tabs.css");
+@import url("ci2/css/base/jquery.ui.datepicker.css");
+@import url("ci2/css/base/jquery.ui.progressbar.css");

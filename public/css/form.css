@@ -1,0 +1,62 @@
+
+
+/* ----------- My Form ----------- */
+.myform{
+    padding:14px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+#stylized{
+    height: 200px;
+}
+/* ----------- stylized ----------- */
+#stylized label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:140px;
+    float:left;
+    
+}
+#stylized .small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:140px;
+}
+#stylized .element{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #3F3F3F;
+    width:200px;
+    margin:2px 0 20px 10px;
+}
+#stylized .btn{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #3F3F3F;
+    width:168px;
+    margin:20px 0 20px 10px;
+}
+.error1{
+    visibility: hidden;
+    border-style:solid;
+    border-width:thin;
+    border-color:red;
+    font-size: 12px;
+    padding: 10px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+.formLabel{
+    float:left; width:200px;
+    font-weight:bold;
+}
+.align{
+    padding-left: 10px;
+    padding-top: 10px;
+}

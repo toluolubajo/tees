@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Titillium Maps';
+    src: url("../fonts/TitilliumMaps29L002.eot");
+    src: local('Titillium Maps'), local('TitilliumMaps'),
+        url("../fonts/TitilliumMaps29L002.otf") format("opentype"),
+        url("../fonts/TitilliumMaps29L002.woff") format("woff");
+}
+body{
+    margin: 0; padding: 0;
+    background-color: silver;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.8em;
+    color:#000000;
+    background:white;
+    position: relative;
+}
+
+#header{
+    width:980px;
+    margin:auto;
+    height:100px;
+    background-color:#AC4B41;
+    moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+#header   h1 {
+    padding:30px 0 0 170px;
+    color:#ffffff;
+    font-size:3em;
+    font-family:  '\Titillium Maps', Arial;
+    text-shadow:#333  0.1em 0.1em 0.2em;
+    font-weight:bold;
+    text-align:center;
+    position: relative;
+}
+#header a{
+    text-decoration: none;
+}
+#header a:hover{
+    cursor:pointer;
+    color:white;
+}
+#contentArea{
+    width:980px;
+    margin:auto;
+    position: relative;
+    height:600px;
+}
+#topNav{
+    height:40px;
+    width:980px;
+    background-color:#3F3F3F;
+    text-align: center;
+}
+
+#topNavLeft{
+    float:left;
+    text-align: center;
+}
+#topNavRight{
+    float:right;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#mainContent{
+    width:980px;
+    height:auto;
+    clear:both;
+}
+#heading{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    background-color:#E9E9E9;
+    width:980px;
+    text-align: center;
+}
+#content{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+#footer {
+    margin-top:20px;
+    margin-left:auto;
+    margin-right: auto;
+    left:200px;
+    width:980px;
+    height:250px;
+    bottom: 0px;
+    background-color:#E9E9E9;
+    border-top: 1px silver solid;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+
+}
+
+#footer p {
+    margin:0;
+    padding:0 150px 0 0;
+    line-height:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.8em;
+    color:#454545;
+    text-align:right;
+}
+#footer li {
+    margin:20px 0px -10px 0px;
+    margin-bottom: 0px;
+    padding-left:15px;
+    list-style:none;
+    background-image:none;
+    font-size:.8em;
+    color:#454545;
+}
+#footer a {
+    color:#9C291D;
+    text-decoration:none;
+}
+
+#footer a:hover {
+    color:#999999;
+    text-decoration:underline;
+}
+#leftFooter{
+    padding: 20px;
+    float:left;
+    width:600px;
+    margin-right:10px;
+    font: 1em;
+
+}
+#leftFooter li{
+    font-size:small;
+    display:inline;
+    border-right: 1px solid silver;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#centerFooter{
+    float:left;
+    width:60px;
+}
+#rightFooter{
+    float:right;
+    width:300px;
+
+}
+.btn {
+    color:#9C291D;
+    font: bold 100% 'trebuchet ms',helvetica,sans-serif;
+    background-color:#fed;
+    border:1px solid;
+    border-color: #000;
+    height: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+.btn:hover{
+    background-color:#000;
+    color:white;
+}
+.mytable{
+    width:auto;
+    padding: 6px;
+    border:0px;
+}
+.mytable th{
+    width:auto;
+    padding: 6px;
+    border:0px;
+    font-size:small;
+
+}
+.mytable td{
+    width:auto;    
+    padding: 6px;
+    font-size:small;
+}
+.score{
+    font-weight:bold;
+    text-align: center;
+}
+.heading td{
+    font-weight:bold;
+    text-align: center;
+}
+.heading .align{
+    text-align: left;
+}
+.summary{
+    padding: 5px;    
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    width:auto;
+    height:auto;
+    margin:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-top: 1px silver solid;
+}
+.summary p{    
+    color:#9C291D;
+    font-weight:lighter;
+
+}
